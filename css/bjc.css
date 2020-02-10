@@ -1,9 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/** Basic HTML **/
-.todo, .comment, .commentBig { 
-  /*display: none; /*MARY remember to "Draft a New Release" on the GH releases page per Tech Check-in 2018-01-03*/
+.todo, .comment, .commentBig {
+  display: none; /*MARY remember to "Draft a New Release" on the GH releases page per Tech Check-in 2018-01-03*/
 }
 
 .anchor {
@@ -20,7 +19,7 @@ body { /* Added 12/15/16 by Mary Fries to provide more screen real estate.*/
   max-width: none;
   background-color: #FDFDFD;
 }
-  
+
 .blockquote {
   width: 90%;
   margin-left: auto;
@@ -62,9 +61,9 @@ div.full {
 
 /*div.full::before { /* DRAFT MESSAGING FOR bjc2.edc.org --MF, 7/5/19 * /
     background-color: yellow;
-    color: red;  
+    color: red;
     content: "This is a draft version of BJC. Visit bjc.edc.org for the current version.";
-    font-size: 2em; 
+    font-size: 2em;
     font-weight: bold;
 }*/
 
@@ -111,13 +110,13 @@ ol.horizontal li {
 }
 
 pre {
-    display: block; 
-    padding: 2px; 
+    display: block;
+    padding: 2px;
     width: min-content;}
 
 pre.inline {
-    display: inline; 
-    margin: 0 .25em 0 .25em; 
+    display: inline;
+    margin: 0 .25em 0 .25em;
 }
 
 div.pre-container {
@@ -181,8 +180,8 @@ var {
   font-size: 18px;
   font-weight: bold;
 }
-	
-.sidenote, .sidenoteBig, .endnote { 
+
+.sidenote, .sidenoteBig, .endnote {
   font-size: .92em;
 }
 .sidenote, .sidenoteBig { /* added by Mary Fries based on http://hartshorne.ca/2005/07/27/footnotes_v_sidenotes/ */
@@ -213,21 +212,21 @@ var {
   margin-left: auto;
   margin-right: auto;
  }
- 
+
 .narrowblue { /* added by MF on 4/17/19 based on above */
   width: 90%;
   /* overriding with new style --MF, 10/11/19 background-color: #dcf4ff; */
   margin-left: auto;
   margin-right: auto;
  }
- 
+
 .narrowpurple {
   width: 90%;
   /* overriding with new style --MF, 10/11/19 background-color: #f4ddf3; */
   margin-left: auto;
   margin-right: auto;
  }
- 
+
 
 .sideHOM, .sideHOMbig { /* added by Mary Fries based on .sidenote */
   font-size: .9em;
@@ -261,9 +260,9 @@ img.noshadow {
   margin-left: auto;
   margin-right: auto;
  }
- 
+
 .apStandards > p {
-  font-size: 12px; 	
+  font-size: 12px;
   margin-left: 2em;
   margin-top: 0em;
   margin-bottom: 0em;
@@ -308,7 +307,7 @@ img.noshadow {
 
         .takeNote, .endHOM, .sideHOM , .sideHOMbig {background-color: #993800; color: #FFFFFF;} /* Purple we'd been trying for a while: 8F56E3 Brian's dark orange that isn't dark enough for white text: #CC5500  Mary's green: #62C213*/
 
-                       
+
 
 .takeItTeaser {
   padding-top: 1em;
@@ -320,9 +319,9 @@ img.noshadow {
   padding: 1em;
 }
 
-.forYouToDo:before, .forYouToDoHeader, .ifTime:before, .dialogue:before, .takeItFurther:before, .takeItTeased:before, .takeNote:before, .narrower:before, .narrowblue:before, .narrowpurple:before, .endnote > div:not(.sidenote):not(.sidenoteBig):not(.sideHOM):not(.sideHOMbig):not(.todo):not(.comment):not(.commentBig):not(.takeNote):not(.collapse):not(.collapsing):not(.takeItFurther):not(.endnote):not(.vocabFullWidth):not(.pseudop), .time:before   { /* Shared Heading Formatting */ 
-/* 
-	On 9/5/17, Mary cut ".sidenote > div:not(.todo):not(.takeNote), .sidenoteBig > div:not(.todo)" because it was messing up the hints on 2.1.2 and 8.2.3. 
+.forYouToDo:before, .forYouToDoHeader, .ifTime:before, .dialogue:before, .takeItFurther:before, .takeItTeased:before, .takeNote:before, .narrower:before, .narrowblue:before, .narrowpurple:before, .endnote > div:not(.sidenote):not(.sidenoteBig):not(.sideHOM):not(.sideHOMbig):not(.todo):not(.comment):not(.commentBig):not(.takeNote):not(.collapse):not(.collapsing):not(.takeItFurther):not(.endnote):not(.vocabFullWidth):not(.pseudop), .time:before   { /* Shared Heading Formatting */
+/*
+	On 9/5/17, Mary cut ".sidenote > div:not(.todo):not(.takeNote), .sidenoteBig > div:not(.todo)" because it was messing up the hints on 2.1.2 and 8.2.3.
 	Then I added ".not(collapsing)" because bootstrap.min.css was being weird, and this stopped it. ;)
 */
   font-size: 18px;
@@ -356,14 +355,14 @@ img.noshadow {
   text-align: center;
 }
 
-.dialogue > div > span:not(.katex) {  
-  font-weight: bold; 
+.dialogue > div > span:not(.katex) {
+  font-weight: bold;
   /*float: left;*/
-  width: 4em; 
+  width: 4em;
 }
 
-.dialogue > div > span.long:not(.katex) {  
-  width: 9em; 
+.dialogue > div > span.long:not(.katex) {
+  width: 9em;
 }
 
 .forYouToDoHeader {text-indent:-40px;}
@@ -405,15 +404,15 @@ table.center td {
 }
 
 table.truth {
-  background-color: #FFFFFF; 
+  background-color: #FFFFFF;
   display: inline-block;
-  margin-top: 10px; 
+  margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 5%; 
+  margin-left: 5%;
 }
 
 table.truth tr th {
-  text-align: center; 
+  text-align: center;
   font-weight: bold;
 }
 
@@ -425,7 +424,7 @@ table.truth tr td {
 
 .takeItFurther, .takeItTeaser, .takeItTeased {
   /* overriding with new style --MF, 10/11/19 background-color: #e4cde3; */
-  width: 90%;  
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   }
@@ -453,7 +452,7 @@ table.truth tr td {
   float: right;
   margin-right: 20px;
   margin-left: 1em;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   padding: 10px;
   clear:both;
   text-indent: 0em;
@@ -495,7 +494,7 @@ div.saveAs img {
 }
 
 div.saveAs span.text {
-  position: absolute; 
+  position: absolute;
   margin-left: 182px;/*19.7em;*/
   padding-top: 1.05em;
   z-index:2;
@@ -503,7 +502,7 @@ div.saveAs span.text {
 }
 
 div.newProject span.text {
-  position: absolute; 
+  position: absolute;
   margin-left: 323px;/*19.7em;*/
   padding-top: 1.05em;
   z-index:2;
@@ -520,7 +519,7 @@ span.big {
 }
 
 .block {
-  height: 2em; 
+  height: 2em;
   padding: 0px;
 }
 
@@ -567,8 +566,8 @@ div.task {font-size:large;padding-top: 10px;}
 
 /* TG Features*/
 .time {
-  background-color: #fcc589; 
-  width: 90%;  
+  background-color: #fcc589;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   }
@@ -577,8 +576,8 @@ div.task {font-size:large;padding-top: 10px;}
 
 /* Compare Page Styles */
 div.CSPpeach, div.visualgreen, div.visualcyan, div.visualpurple, div.visualyellow, div.visualsalmon, div.socialorange {
-	padding:25px; 
-	border-radius: 25px; 
+	padding:25px;
+	border-radius: 25px;
 	margin-bottom:10px;
 }
 
@@ -604,17 +603,17 @@ a.blbtn {
 	margin-bottom: 0;
 	font-size: 14px;
 	font-weight: normal;
-	line-height: 1.428571429; 
-	/* text-align: center; */ 
-	/* white-space: nowrap; */ 
-	/* vertical-align: middle; */ 
+	line-height: 1.428571429;
+	/* text-align: center; */
+	/* white-space: nowrap; */
+	/* vertical-align: middle; */
 	/* cursor: pointer; */
 	border: 1px solid transparent;
-	border-radius: 4px; 
-	/* -webkit-user-select: none; */ 
-	/* -moz-user-select: none; */ 
-	/* -ms-user-select: none; */ 
-	/* -o-user-select: none; */ 
+	border-radius: 4px;
+	/* -webkit-user-select: none; */
+	/* -moz-user-select: none; */
+	/* -ms-user-select: none; */
+	/* -o-user-select: none; */
 	/* user-select: none; */
 }
 a.blbtn:hover {
@@ -627,16 +626,16 @@ a.blbtn:visited {
 /* edX BJC Videos */
 
 table.videos {
-	border: 1px solid black; 
+	border: 1px solid black;
 }
 table.videos th {
 	font-weight: bold;
 }
 table.videos td {
 	padding: 5px;
-	border-right: 1px solid black; 
-	border-left: 1px solid black; 
-} 
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
 
 /* CSS for the image hover show/hide effects created by Selim for 6.1.1 */
 
@@ -661,7 +660,7 @@ table.videos td {
   max-width:400px;
   z-index:1;
 }
-    
+
 
 @media print {
     .full {
@@ -681,9 +680,9 @@ table.videos td {
     }
     .learn, .sidenote, .sidenoteBig, .endnote, .sideHOM, .sideHOMbig, .takeNote, .vocab, .vocabBig, .vocabFullWidth, .exam, .examBig, .examFullWidth, .dialogue, .narrower, .narrowblue, .narrowpurple {
         border:.5px solid;
-    } /* Current excludes .forYouToDo, .ifTime, .takeItFurther, Also, we need to find a way to make ITIT and TIFs show up on the printouts. --MF, 7/25/19 */ 
-    .btn-default, .todo, .comment, .commentBig, img { 
+    } /* Current excludes .forYouToDo, .ifTime, .takeItFurther, Also, we need to find a way to make ITIT and TIFs show up on the printouts. --MF, 7/25/19 */
+    .btn-default, .todo, .comment, .commentBig, img {
         display: none;
     }
-    
+
 }
